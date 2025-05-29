@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ========================================================= custom-css-link ========================================================== -->
+    <link rel="stylesheet" href="./Css/style.css">
+
+    <link rel="stylesheet" href="./Css/responsive.css">
+
+    <!-- ======================================================= font-awesome-cdn-link ====================================================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- ======================================================= Swiper-css-cdn-link ====================================================== -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <title>Happy Home</title>
+    <link rel="icon" type="image/x-icon" href="./Image/favicon.ico">
+<body>
+ 
+    <header class="header">
+        <div class="container-max">
+            <nav class="navbar">
+                <div class="nav-logo">
+                    <a href="#"><img src="./Image/nav-logo.png" alt="Happy-Home-logo"></a>
+                </div>
+
+                <input type="checkbox" name="check" id="check">
+                <label for="check" class="menu-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+
+                <ul class="nav-menu">
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">agents</a></li>
+                    <li><a href="#testimonial">testimonial</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+
+                <div class="nav-btn">
+                    <a href="#sell" class="cmn-btn">sell property</a>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="#"><i class="fa-regular fa-circle-user"></i></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ========================================================== hero-banner========================================================== -->
+
+        <section class="banner cmn-gap" id="hero">
+            <div class="container-min">
+                <div class="hero-content">
+                    <span>Welcome to Our Website!</span>
+                    <div class="hero-heading">
+                        <h1>Get Your
+                            <span class="role-changer">
+                                <span class="role">perfect</span>
+                                <span class="role">Dream</span>
+                                <span class="role">wonder</span>
+                                <span class="role">desired</span>
+                                <span class="role">comfort</span>
+                            </span>
+                            Home Easily
+                        </h1>
+                    </div>
+                    
+                    <div class="hero-btn">
+                        <a href="#buy" class="cmn-btn">buy</a>
+                        <a href="#rent" class="cmn-btn">rent</a>
+                    </div>
+
+                    <div class="hero-search">
+                        <div class="hero-search-content">
+
+                            
+
+                            <form action="" method="post">
+
+                                <div class="col20 hero-dropdown">
+                                    <label for="city">city</label>
+                                    <select name="city" id="city">
+                                        <option value="kolkata">kolkata</option>
+                                        <option value="bangalore">bangalore</option>
+                                        <option value="mumbai">mumbai</option>
+                                        <option value="chennei">chennei</option>
+                                    </select>
+                                </div>
+
+                                <div class="col20 hero-dropdown">
+                                    <label for="property">property type</label>
+                                    <select name="property" id="property">
+                                        <option value="kolkata">banglow</option>
+                                        <option value="bangalore">flat</option>
+                                        <option value="mumbai">house</option>
+                                        <option value="chennei">delux property</option>
+                                    </select>
+                                </div>
+
+                                <div class="col20 hero-dropdown">
+                                    <label for="bhk">BHK</label>
+                                    <select name="bhk" id="bhk">
+                                        <option value="kolkata">1 BHK</option>
+                                        <option value="bangalore">2 BHK</option>
+                                        <option value="mumbai">3 BHK</option>
+                                        <option value="chennei">4 BHK</option>
+                                    </select>
+                                </div>
+
+
+                                <div class="col20 hero-dropdown">
+                                    <label for="budget">budget</label>
+                                    <select name="budget" id="budget">
+                                        <option value="kolkata">20-30 Lakh</option>
+                                        <option value="bangalore">30-40 Lakh</option>
+                                        <option value="mumbai">40-50 Lakh</option>
+                                        <option value="chennei">50-60 Lakh</option>
+                                    </select>
+                                </div>
+
+                                <div class="col20 hero-dropdown">
+                                    <label for="srch-brn">search</label>
+                                    <button type="submit" class="cmn-btn" id="srch-brn" name="srch-brn">find now<i class="fa-solid fa-magnifying-glass"></i></button>
+                                </div>
+                                
+
+                            </form>
+
+                            
+
+                            <!-- <div class="col20 hero-dropdown">
+                                <ul class="dropdown-menu" id="dropdown-search">
+                                    <li class="dropdown-name">Search</li>
+                                    <a href="#" class="hero-search-btn" >find now<i class="fa-solid fa-magnifying-glass"></i></a>
+                                </ul> 
+                            </div> -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================================= buy-property ===================-===================================== -->
+
+        <section class="buy-property cmn-gap" id="buy">
+            <div class="container-min">
+                <div class="row">
+                    <div class="col50 buy-property-left">
+                        <h2>Buy Your Property</h2>
+                        <span>Find from houses, flats, villas, townhouses and more</span>
+                        <p>Lorem ipsum dolor sit amet consectetur. Amet porta volutpat id volutpat. Ultricies enim nec dictum vitae sit malesuada sit tristique. Ut neque at amet sit. Proin nibh praesent cras risus in massa amet.</p>
+                        <a href="#" class="cmn-btn">Buy Now</a>
+                    </div>
+                    <div class="col50 buy-property-right">
+                        
+                        
+                        <div class="buy-property-img1">
+                            <img src="./Image/buy-property-img1.png" alt="">
+                        </div>
+
+                        <div class="buy-property-img2">
+                            <img src="./Image/buy-property-img2.png" alt="">
+                        </div>
+
+                        <div class="buy-property-img3">
+                            <img src="./Image/buy-property-img3.png" alt="">
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================================= top-property ========================================================= -->
+
+        <section class="top-property cmn-gap">
+            <div class="container-min">
+                <div class="top-property-part1">
+                    <h2>top properties</h2>
+                </div>
+            </div>
+            <div class="container-max">
+                <div class="swiper top-property-swiper">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="top-property-card">
+                                <div class="top-property-card-img">
+                                    <figure><img src="./Image/top-property-img1.png" alt="Decent-House-img" loading="lazy"></figure>
+                                </div>
+                                <div class="top-property-card-content">
+                                    <h3>decent house</h3>
+                                    <p>3 BHK | 780 sq ft | Bangalore </p>
+                                    <span>₹ 69 - 74 Lacs</span>
+                                </div>
+                                <div class="rent">
+                                    <p>for rent</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="top-property-card">
+                                <div class="top-property-card-img">
+                                    <figure><img src="./Image/top-property-img2.png" alt="Decent-House-img" loading="lazy"></figure>
+                                </div>
+                                <div class="top-property-card-content">
+                                    <h3>Modern Appartment</h3>
+                                    <p>4 BHK | 900 sq ft | Mumbai</p>
+                                    <span>₹ 42k/Month</span>
+                                </div>
+                                <div class="rent">
+                                    <p>for rent</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="top-property-card">
+                                <div class="top-property-card-img">
+                                    <figure><img src="./Image/top-property-img3.png" alt="Decent-House-img" loading="lazy"></figure>
+                                </div>
+                                <div class="top-property-card-content">
+                                    <h3>Cozy Townhouse</h3>
+                                    <p>2 BHK | 450 sq ft | Hyderabad</p>
+                                    <span>₹ 30k/Month</span>
+                                </div>
+                                <div class="rent">
+                                    <p>for rent</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="top-property-card">
+                                <div class="top-property-card-img">
+                                    <figure><img src="./Image/top-property-img2.png" alt="Decent-House-img" loading="lazy"></figure>
+                                </div>
+                                <div class="top-property-card-content">
+                                    <h3>Modern Appartment</h3>
+                                    <p>4 BHK | 900 sq ft | Mumbai</p>
+                                    <span>₹ 42k/Month</span>
+                                </div>
+                                <div class="rent">
+                                    <p>for rent</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="top-property-swiper-next">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+
+                <div class="top-property-swiper-prev">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================================= sell-property ======================================================== -->
+
+        <section class="sell-property cmn-gap" id="sell">
+            <div class="container-min">
+                <div class="row">
+                    <div class="col50 sell-property-left">
+                        <div class="sell-property-img">
+                            <figure><img src="./Image/sell-property-img.png" alt="sell-property-img" loading="lazy"></figure>
+                        </div>
+                    </div>
+                    <div class="col50 sell-property-right">
+                        <h2>Sell Your Property</h2>
+                        <span>Sell from houses, flats, villas, townhouses and more</span>
+                        <p>Lorem ipsum dolor sit amet consectetur. Nisi fusce morbi potenti eleifend ornare. Tincidunt amet aliquet quis orci fringilla erat. Condimentum fermentum elit sodales dolor lacus ornare urna ridiculus.</p>
+                        <a href="#" class="cmn-btn">sell now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================ explore ========================================================== -->
+
+        <section class="explore cmn-gap">
+            <div class="container-min">
+                <div class="explore-part1">
+                    <h2>Explore Famous Cities</h2>
+                </div>
+                <div class="row">
+
+                    <div class="col33 explore-card">
+                        <div class="explore-top">
+                            <figure><img src="./Image/explore-card-img1.png" alt="kolkata-img" loading="lazy"></figure>
+                            <h3>kolkata</h3>
+                            <div class="explore-card-overlay">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eum eius repudiandae debitis architecto ratione!</p>
+                                <a href="#" class="cmn-btn">explore now</a>
+                            </div>
+                        </div>
+                        <p>50,000+ Properties</p>
+                    </div>
+
+                    <div class="col33 explore-card">
+                        <div class="explore-top">
+                            <figure><img src="./Image/explore-card-img2.png" alt="kolkata-img" loading="lazy"></figure>
+                            <h3>delhi</h3>
+                            <div class="explore-card-overlay">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eum eius repudiandae debitis architecto ratione!</p>
+                                <a href="#" class="cmn-btn">explore now</a>
+                            </div>
+                        </div>
+                        <p>120,000+ Properties</p>
+                    </div>
+
+                    <div class="col33 explore-card">
+                        <div class="explore-top">
+                            <figure><img src="./Image/explore-card-img3.png" alt="kolkata-img" loading="lazy"></figure>
+                            <h3>Mumbai</h3>
+                            <div class="explore-card-overlay">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eum eius repudiandae debitis architecto ratione!</p>
+                                <a href="#" class="cmn-btn">explore now</a>
+                            </div>
+                        </div>
+                        <p>68,000+ Properties</p>
+                    </div>
+
+                    <div class="col33 explore-card">
+                        <div class="explore-top">
+                            <figure><img src="./Image/explore-card-img4.png" alt="kolkata-img" loading="lazy"></figure>
+                            <h3>chenni</h3>
+                            <div class="explore-card-overlay">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eum eius repudiandae debitis architecto ratione!</p>
+                                <a href="#" class="cmn-btn">explore now</a>
+                            </div>
+                        </div>
+                        <p>25,000+ Properties</p>
+                    </div>
+
+                    <div class="col33 explore-card">
+                        <div class="explore-top">
+                            <figure><img src="./Image/explore-card-img5.png" alt="kolkata-img" loading="lazy"></figure>
+                            <h3>bangalore</h3>
+                            <div class="explore-card-overlay">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eum eius repudiandae debitis architecto ratione!</p>
+                                <a href="#" class="cmn-btn">explore now</a>
+                            </div>
+                        </div>
+                        <p>74,000+ Properties</p>
+                    </div>
+
+                    <div class="col33 explore-card">
+                        <div class="explore-top">
+                            <figure><img src="./Image/explore-card-img6.png" alt="kolkata-img" loading="lazy"></figure>
+                            <h3>Hyderabad</h3>
+                            <div class="explore-card-overlay">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eum eius repudiandae debitis architecto ratione!</p>
+                                <a href="#" class="cmn-btn">explore now</a>
+                            </div>
+                        </div>
+                        <p>46,000+ Properties</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================================= rent-property ================-===================================== -->
+
+        <section class="rent-property cmn-gap" id="rent">
+            <div class="container-min">
+                <div class="row">
+                    <div class="col50 rent-property-left">
+                        <h2>Rent A Property</h2>
+                        <span>Find from houses, flats, villas, townhouses and more</span>
+                        <p>Lorem ipsum dolor sit amet consectetur. Amet porta volutpat id volutpat. Ultricies enim nec dictum vitae sit malesuada sit tristique. Ut neque at amet sit. Proin nibh praesent cras risus in massa amet.</p>
+                        <a href="#" class="cmn-btn">Buy Now</a>
+                    </div>
+                    <div class="col50 rent-property-right">
+                        
+                        
+                        <div class="rent-property-img1">
+                            <img src="./Image/rent-property-img1.png" alt="">
+                        </div>
+
+                        <div class="rent-property-img2">
+                            <img src="./Image/rent-property-img2.png" alt="">
+                        </div>
+
+                        <div class="rent-property-img3">
+                            <img src="./Image/rent-property-img3.png" alt="">
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================ features ========================================================== -->
+
+        <section class="feature cmn-gap">
+            <div class="container-max">
+                <div class="feature-top">
+                    <h2>Why Choose Us</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur. Massa malesuada facilisis ut vestibulum aliquam nunc euismod.</p>
+                </div>
+                <div class="row">
+
+                    <div class="col25">
+                        <div class="feature-card">
+                            <div class="feature-card-icon">
+                                <figure><img src="./Image/feature-card-icon1.png" alt="find-home-icon" loading="lazy"></figure>
+                            </div>
+                            <h3>Find Your Future Home</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        </div>
+                    </div>
+
+                    <div class="col25">
+                        <div class="feature-card">
+                            <div class="feature-card-icon">
+                                <figure><img src="./Image/feature-card-icon2.png" alt="find-home-icon" loading="lazy"></figure>
+                            </div>
+                            <h3>experienced agents</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        </div>
+                    </div>
+
+                    <div class="col25">
+                        <div class="feature-card">
+                            <div class="feature-card-icon">
+                                <figure><img src="./Image/feature-card-icon3.png" alt="find-home-icon" loading="lazy"></figure>
+                            </div>
+                            <h3>Deal Closed</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        </div>
+                    </div>
+
+                    <div class="col25">
+                        <div class="feature-card">
+                            <div class="feature-card-icon">
+                                <figure><img src="./Image/feature-card-icon4.png" alt="find-home-icon" loading="lazy"></figure>
+                            </div>
+                            <h3>Verified By Our Team</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        </div>
+                    </div>
+    
+                    
+                    
+                </div>
+            </div>
+        </section>
+
+        
+
+        <!-- ============================================================ testimonial ======================================================= -->
+
+        <section class="testimonial cmn-gap" id="testimonial">
+            <div class="container-min">
+                <div class="testimonial-top">
+                    <h2>our testimonials</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur. Eleifend interdum nulla libero dolor duis sapien et.</p>
+                </div>
+            </div>
+            <div class="container-max">
+                <div class="swiper testimonial-Swiper">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-card" id="testimonial-card1">
+                                <p>Lorem ipsum dolor sit amet consectetur. Semper arcu erat cum lorem. Consectetur hendrerit elementum viverra pulvinar facilisi mi convallis in integer.</p>
+                                <div class="rating">
+                                    <div class="rating-img">
+                                        <figure><img src="./Image/rating-img1.png" alt="customer-img" loading="lazy"></figure>
+                                    </div>
+                                    <div class="rating-name">
+                                        <h3>Edward Blake</h3>
+                                        <div class="rating-star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-card" id="testimonial-card2">
+                                <p>Lorem ipsum dolor sit amet consectetur. Semper arcu erat cum lorem. Consectetur hendrerit elementum viverra pulvinar facilisi mi convallis in integer.</p>
+                                <div class="rating">
+                                    <div class="rating-img">
+                                        <figure><img src="./Image/rating-img2.png" alt="customer-img" loading="lazy"></figure>
+                                    </div>
+                                    <div class="rating-name">
+                                        <h3>Albert Rhett</h3>
+                                        <div class="rating-star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-card" id="testimonial-card3">
+                                <p>Lorem ipsum dolor sit amet consectetur. Semper arcu erat cum lorem. Consectetur hendrerit elementum viverra pulvinar facilisi mi convallis in integer.</p>
+                                <div class="rating">
+                                    <div class="rating-img">
+                                        <figure><img src="./Image/rating-img3.png" alt="customer-img" loading="lazy"></figure>
+                                    </div>
+                                    <div class="rating-name">
+                                        <h3>Henry Gray </h3>
+                                        <div class="rating-star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-card" id="testimonial-card4">
+                                <p>Lorem ipsum dolor sit amet consectetur. Semper arcu erat cum lorem. Consectetur hendrerit elementum viverra pulvinar facilisi mi convallis in integer.</p>
+                                <div class="rating">
+                                    <div class="rating-img">
+                                        <figure><img src="./Image/rating-img2.png" alt="customer-img" loading="lazy"></figure>
+                                    </div>
+                                    <div class="rating-name">
+                                        <h3>Albert Rhett</h3>
+                                        <div class="rating-star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      
+                    </div>
+                </div>
+                <div class="testimonial-swiper-next">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+
+                <div class="testimonial-swiper-prev">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================ download ========================================================== -->
+
+        <section class="download">
+            <div class="container-min">
+                <div class="download-part1">
+                    <div class="download-part1-content">
+                        <h2>Download Our App</h2>
+                        <ul>
+                            <li><i class="fa-regular fa-circle-check"></i>Lorem ipsum dolor sit amet consectetur.</li>
+                            <li><i class="fa-regular fa-circle-check"></i>Mauris morbi velit facilisis enim sagittis.</li>
+                        </ul>
+                        <div class="download-app">
+                            <a href="https://play.google.com/store/apps?hl=en_IN"><img src="./Image/download-google-play.png" alt="google-play-store-icon" loading="lazy"></a>
+                            <a href="https://www.apple.com/in/store?cid=aos-IN-kwgo-brand"><img src="./Image/download-apple-store.png" alt="apple-store-icon" loading="lazy"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+        <!-- ============================================================ footer ============================================================ -->
+        
+        <footer class="footer">
+            <div class="container-max">
+                <div class="row footer-cmn-gap">
+
+                    <div class="col38 footer-content">
+                        <a href="#" class="footer-logo"><img src="./Image/footer-logo.png" alt="footer-logo" loading="lazy"></a>
+                        <div class="footer-info">Lorem ipsum dolor sit amet consectetur. Dolor cursus consectetur et arcu quis netus at. Tellus felis elementum eget turpis amet. Duis eget neque quisque eget ipsum enim.</div>
+                        <ul class="footer-address">
+                            <li><a href="#"><i class="fa-solid fa-location-dot"></i>Lorem ipsum, dolor sit amet, consectetur</a></li>
+                            <li><a href="tel:+910011001100"><i class="fa-solid fa-phone"></i>+91 0011001100</a></li>
+                            <li><a href="mailto:happyhome@gmail.com"><i class="fa-solid fa-envelope"></i>happyhome@gmail.com</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col16 footer-company">
+                        <span>company</span>
+                        <ul class="footer-company-list">
+                            <li><a href="#">about</a></li>
+                            <li><a href="#">Our Vision</a></li>
+                            <li><a href="#">Agents</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col17 footer-service">
+                        <span>services</span>
+                        <ul class="footer-service-list">
+                            <li><a href="#">house for Rent</a></li>
+                            <li><a href="#">house for Rent</a></li>
+                            <li><a href="#">Villas for Rent</a></li>
+                            <li><a href="#">Villas for Rent</a></li>
+                            <li><a href="#">Flats for Rent</a></li>
+                            <li><a href="#">Flats for Rent</a></li>
+                            <li><a href="#">Townhouse for Rent</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col29 footer-social">
+                        <span>Reach Out to Us</span>
+                        <ul class="footer-social-icon">
+                            <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="https://x.com/?lang=en"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a></li>
+                        </ul>
+                        <span>newsletter subscribe</span>
+                        <form action="" class="myform" id="myform" method="post">
+                            <input type="email" class="email" id="email" name="email" placeholder="enter email">
+                            <button type="submit" class="cmn-btn">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="copyright">© 2024 <a href="#">HappyHome</a>. All rights reserved.</div>
+            </div>
+        </footer>
+    
+    
+    <!-- jquery cdn link -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- jquery validate cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js">
+
+    </script>
+    <!-- popper minified js cdn link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+
+
+    <script src="./Js/script.js"></script>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".testimonial-Swiper", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            loop: true,
+            simulateTouch: false,
+            navigation: {
+                nextEl: ".testimonial-swiper-next",
+                prevEl: ".testimonial-swiper-prev",
+            },
+
+            breakpoints:{
+                576:{
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+
+                992:{
+                slidesPerView: 3,
+                spaceBetween: 30,
+                }
+            }
+        
+        });
+    </script>
+
+
+
+    <script>
+        var swiper = new Swiper(".top-property-swiper", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            loop: true,
+            simulateTouch: false,
+            navigation: {
+                nextEl: ".top-property-swiper-next",
+                prevEl: ".top-property-swiper-prev",
+            },
+
+            breakpoints:{
+                 576:{
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+
+                992:{
+                    slidesPerView: 3,
+                    spaceBetween: 30,
+                }
+            }
+    
+        });
+    </script>
+
+
+</body>
+</html>
